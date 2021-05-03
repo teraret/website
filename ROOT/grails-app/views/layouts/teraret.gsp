@@ -22,20 +22,20 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Ignite</a>
+	      <a class="navbar-brand" href="${createLink(uri:'/')}">Ignite</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="domain.html" class="nav-link">Domain</a></li>
-	          <li class="nav-item"><a class="nav-link" href="hosting.html">Hosting</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	          <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Get started</span></a></li>
+	          <li class="nav-item active"><a href="${createLink(uri:'/')}" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="${createLink(uri:'/about')}" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="${createLink(uri:'/domain')}" class="nav-link">Domain</a></li>
+	          <li class="nav-item"><a class="nav-link" href="${createLink(uri:'/mail-hosting')}">Mail Hosting</a></li>
+	          <li class="nav-item"><a href="${createLink(uri:'/managed-cloud-solutions')}" class="nav-link">Managed Cloud Solutions</a></li>
+	          <li class="nav-item"><a href="${createLink(uri:'/contact')}" class="nav-link">Contact</a></li>
+	          <li class="nav-item cta"><a href="${createLink(uri:'/domain')}contact.html" class="nav-link"><span>Get started</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -521,10 +521,10 @@
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Unseful Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Servers</a></li>
-                <li><a href="#" class="py-2 d-block">Windos Hosting</a></li>
-                <li><a href="#" class="py-2 d-block">Cloud Hosting</a></li>
-                <li><a href="#" class="py-2 d-block">OS Servers</a></li>
+                <li><a href="#" class="py-2 d-block">AWS Hosting</a></li>
+                <li><a href="#" class="py-2 d-block">GCP Hosting</a></li>
+                <li><a href="#" class="py-2 d-block">Azure Hosting</a></li>
+                <li><a href="#" class="py-2 d-block">Digital Ocean</a></li>
                 <li><a href="#" class="py-2 d-block">Linux Servers</a></li>
                 <li><a href="#" class="py-2 d-block">Policy</a></li>
               </ul>
@@ -536,9 +536,9 @@
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">Home</a></li>
                 <li><a href="#" class="py-2 d-block">Domain</a></li>
-                <li><a href="#" class="py-2 d-block">Hosting</a></li>
+                <li><a href="#" class="py-2 d-block">Mail Hosting</a></li>
+                <li><a href="#" class="py-2 d-block">Managed Cloud Solutions</a></li>
                 <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
                 <li><a href="#" class="py-2 d-block">Contact</a></li>
               </ul>
             </div>
@@ -548,7 +548,6 @@
             	<h2 class="ftco-heading-2">Office</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
 	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 8667710055</span></a></li>
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@teraret.com</span></a></li>
 	              </ul>
