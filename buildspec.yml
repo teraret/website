@@ -21,4 +21,8 @@ phases:
 artifacts:
   files:
     - ROOT.war
-    - maivw.war
+    secondary-artifacts:
+      artifact1:
+        files:
+          - maivw.war
+        name: maivw
