@@ -19,5 +19,10 @@ phases:
     commands:
       - echo "Entered Post Build Phase"
 artifacts:
-  files:
-    - maivw.war
+  secondary-artifacts:
+    artifact1:
+      files:
+        - ROOT.war
+    artifact2:
+      files:
+        - maivw.war
